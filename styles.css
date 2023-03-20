@@ -8,4 +8,20 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
 }
