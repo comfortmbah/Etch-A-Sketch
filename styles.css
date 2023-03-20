@@ -16,12 +16,3 @@ body {
     justify-content: center;
 }
 
-.main {
-    display: flex;
-    gap: 20px;
-}
-
-.settings {
-    display: flex;
-    flex-direction: column;
-}
