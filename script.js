@@ -1,8 +1,13 @@
 const grid = document.getElementById('grid'); 
-const btn = document.querySelector('.btnSize');
+const btnSize = document.querySelector('.btnSize');
+const clearBtn = document.querySelector('.clearBtn');
 
-btn.addEventListener('click', resetSize);
+clearBtn.onclick = () => clearGrid();
+btnSize.addEventListener('click', resetSize);
 
+function clearGrid() {
+    grid.innerHTML = '';
+}
 function changeColor(e) {
     const randomR = Math.floor(Math.random() * 256);
     const randomG = Math.floor(Math.random() * 256);
