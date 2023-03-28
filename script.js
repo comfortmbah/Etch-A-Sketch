@@ -7,7 +7,8 @@ btnSize.addEventListener('click', resetSize);
 
 function clearGrid() {
     grid.innerHTML = '';
-}
+} 
+
 function changeColor(e) {
     const randomR = Math.floor(Math.random() * 256);
     const randomG = Math.floor(Math.random() * 256);
